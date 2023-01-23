@@ -2,7 +2,7 @@ package creational.abstractfactory;
 
 public class ConcreteProductB1 implements ProductB {
     @Override
-    public void doStuffB() {
-        System.out.println("Concrete Product B1 did stuff");
+    public String doStuffB() {
+        return "Concrete Product B1 did stuff";
     }
 }
